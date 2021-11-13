@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jean-Christophe Gendron</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/svg" href="/ressources/avion.svg"/>
+</head>
+<body>
+    <!-- Boutton navigation gauche menu -->
+
+    <div class="btn-rond-menu">
+        <div class="cont-ligne">
+            <div class="ligne-unique">
+            </div>
+        </div>
+    </div>
+     <!-- Barre de navigation verticale gauche -->
+
+     <nav class="nav-gauche">
+        <div class="blocs-menu">
+            <div class="cercle-portrait">
+                <img src="ressources/JeanChristopheGendron_couleur.svg" alt="portrait image">
+            </div>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#accueil">
+                    Accueil
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#pres">
+                    Présentation
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#port">
+                    Portfolio
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#range">
+                    Compétences
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#exp">
+                    Expériences
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#contact">
+                    Contact
+                </a>
+            </span>
+        </div>
+
+        <div class="blocs-menu">
+            <div class="logo-cercle">
+                <a href="#contact">
+                    <img src="ressources/contact.svg" alt="logo enveloppe contact">
+                </a>
+            </div>
+        </div>
+     </nav>
+
+      <!-- Section Accueil -->
+      
+    <section class="accueil" id="accueil">
+        <h1>Bienvenue</h1>
+        <p class="txt-animation"></p>
+        <div class="btn-accueil">
+            <a href="#port" class="btn-acc btn-acc1">Portfolio</a>
+            <a href="#exp" class="btn-acc btn-acc2">Expériences</a>
+        </div>
+        <div class="medias">
+            <a href="https://github.com/Jean-ChristopheGdn" target="blank">
+                <div class="media media1">
+                    <img src="ressources/github.svg" alt="icone github" class="icone-medias">
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/jean-christophe-gendron-3a0248143/" target="blank">
+                <div class="media media2">
+                    <img src="ressources/linkedin.svg" alt="icone linkedin" class="icone-medias">
+                </div>
+            </a>
+            <a href="https://twitter.com/JeanChristGdn" target="blank">
+                <div class="media media3">
+                    <img src="ressources/twitter.svg" alt="icone twitter" class="icone-medias">
+                </div>
+            </a>
+        </div>
+        <a href="#pres">
+            <div class="btn-rond">
+                <img src="ressources/arrowDown.svg" alt="logo fleche bas" class="logo-btn-rond-accueil">
+            </div>
+        </a>
+
+    </section>
+    <!-- Section de présentation -->
+     
+    <section class="presentation" id="pres">
+        <h2 class="titre-pres">Qui je suis ?</h2>
+        <div class="container-presentation">
+            <div class="fond-forme">
+            </div>
+            <div class="pres-gauche">
+                <h3>Présentation </h3>
+                <hr>
+                <p>
+                   Je suis Jean-Christophe Gendron. Après avoir obtenu un master Finance à l'inseec et avoir travaillé en banque, j'ai décidé de partir à l'aventure pour un voyage d'une année d'abord en Nouvelle-Zélande et ses alentours, puis en Asie.
+                   J'ai ensuite découvert ma passion pour le code d'abord en autodidacte, en enchaînant les formations openclassroom, puis en intégrant la Coding Academy d'Epitech basé sur l'apprentissage collaboratif par projet.
+                    
+                </p>
+                <br>
+                <p>
+                    Si vous voulez échanger avec moi, n'hésitez pas à me laisser un message dans le formulaire de contact en bas de cette page :)
+ 
+                </p>
+            </div>
+            <div class="pres-droite">
+                <ul class="liste-presentation">
+                    <li class="item-liste i1">
+                        <span class="chiffre-style">1.</span>
+                        <p class="txt-liste">Développeur Fullstack</p>
+                    </li>
+                    <li class="item-liste i2">
+                        <span class="chiffre-style">2.</span>
+                        <p class="txt-liste">Développeur Front-end</p>
+                    </li>
+                    <li class="item-liste i3">
+                        <span class="chiffre-style">3.</span>
+                        <p class="txt-liste">Développeur Back-end</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Section Projets Portfolio -->
+    <section class="portfolio" id="port">
+        <h2 class="titre-port">Portfolio</h2>
+        <div class="cont-portfolio">
+            <div class="item vague1">
+                <div class="cont-img-port">
+                    <img src="ressources/mern_pff.jpg" alt="image portfolio">
+                </div>
+                <h3>Projet de fin de formation</h3>
+                <p>Site développé en stack MERN, permettant aux utilisateurs de proposer leurs services entre particuliers ou particuliers/professionnels.
+                    </p>
+                <a href="https://github.com/faten94/PFF" class="btn-projet">Découvrez le projet</a>
+            </div>
+            <div class="item vague1">
+                <div class="cont-img-port">
+                    <img src="ressources/jQuery.jpg" alt="image portfolio">
+                </div>
+                <h3>2048 - Jquery</h3>
+                <p>Développement du jeu 2048 en Jquery dont le but est de combiner des chiffres de même valeur jusqu'à obtenir 2048.</p>
+                <a href="https://github.com/Jean-ChristopheGdn/2048-rush-jquery" class="btn-projet">Découvrez le projet</a>
+            </div>
+            <div class="item vague1">
+                <div class="cont-img-port">
+                    <img src="ressources/symfony.jpg" alt="image portfolio">
+                </div>
+                <h3>Movie list</h3>
+                <p>Développement avec Symfony, d'un site permettant de rechercher des films
+                    via l'API "The movie database".</p>
+                <a href="https://github.com/Jean-ChristopheGdn/Symfony_Movie_list" class="btn-projet">Découvrez le projet</a>
+            </div>
+            <div class="item vague2">
+                <div class="cont-img-port">
+                    <img src="ressources/Mern.jpg" alt="image portfolio">
+                </div>
+                <h3>Social Network</h3>
+                <p>Réseau social en stack MERN, permettant de créer des comptes utilisateurs,
+                    de poster des articles, de s'abonner à d'autres utilisateurs.</p>
+                <a href="https://github.com/Jean-ChristopheGdn/MERN_SOCIAL_NETWORK" class="btn-projet">Découvrez le projet</a>
+            </div>
+            <div class="item vague2">
+                <div class="cont-img-port">
+                    <img src="ressources/React Native.jpg" alt="image portfolio">
+                </div>
+                <h3>Epicture</h3>
+                <p>Création d'une application smartphone permettant d'afficher des images via l'api imgur.</p>
+                <a href="https://github.com/Jean-ChristopheGdn/React-native-Epicture/tree/master/Epicture" class="btn-projet">Découvrez le projet</a>
+            </div>
+
+      
+        </div>
+    </section>
+    <!-- Section Range compétences -->
+    <section class="section-range" id="range">
+        <h2 class="titre-exp">Compétences</h2>
+        <div class="grille-skill">
+
+            <div class="range-cont">
+                <p class="label-skill">Javascript</p>
+                <p class="number-skill">70%</p>
+                <div class="barre-skill b1"></div>
+                <div class="barre-grise"></div>
+            </div>
+            <div class="range-cont">
+                <p class="label-skill">PHP</p>
+                <p class="number-skill">60%</p>
+                <div class="barre-skill b2"></div>
+                <div class="barre-grise"></div>
+            </div>
+            <div class="range-cont">
+                <p class="label-skill">HTML/CSS</p>
+                <p class="number-skill">80%</p>
+                <div class="barre-skill b3"></div>
+                <div class="barre-grise"></div>
+            </div>
+            <div class="range-cont">
+                <p class="label-skill">Node JS</p>
+                <p class="number-skill">50%</p>
+                <div class="barre-skill b4"></div>
+                <div class="barre-grise"></div>
+            </div>
+            <div class="range-cont">
+                <p class="label-skill">React JS</p>
+                <p class="number-skill">65%</p>
+                <div class="barre-skill b5"></div>
+                <div class="barre-grise"></div>
+            </div>
+            <div class="range-cont">
+                <p class="label-skill">Python</p>
+                <p class="number-skill">45%</p>
+                <div class="barre-skill b6"></div>
+                <div class="barre-grise"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Expériences -->
+
+    <section class="travail-exp" id="exp">
+        <h2 class="titre-travail-exp">Expériences</h2>
+        <div class="cont-exp-travail">
+
+            <div class="barre-verticale">
+                <div class="boule-ico">
+                    <img src="ressources/e-commerce.svg" alt="icone gauche">
+                </div>
+                <div class="boule-ico">
+                    <img src="ressources/epitech.svg" alt="icone gauche">
+                </div>
+                <div class="boule-ico">
+                    <img src="ressources/new_zealand.svg" alt="icone gauche">
+                </div>
+                <div class="boule-ico">
+                    <img src="ressources/credit-agricole.svg" alt="icone gauche">
+                </div>
+                <div class="boule-ico">
+                    <img src="ressources/avion.svg" classe="avion" alt="icone gauche">
+                </div>
+            </div>
+
+            <div class="flex-cont-bloc-exp">
+                <div class="bloc bloc1">
+                    <div class="contenu-bloc">
+                        <p class="titre-section-bloc">Sites E-commerces</p>
+                        <p class="txt-section">
+                            <li>Etude de marché</li>
+                            <li>Création de site sur CMS</li>
+                            <li>Intégration d'applications</li>
+                            <li>Facebook Ads</li>
+                            <li>Création de publicités sur photoshop / première pro</li>
+                        </p>
+                    </div>
+                </div>
+                <div class="bloc bloc2">
+                    <div class="contenu-bloc">
+                        <p class="titre-section-bloc">Coding Academy Epitech</p>
+                        <p class="txt-section">Formation intensive basé sur l'apprentissage par projet.
+                            <li>Réseau social</li>
+                            <li>Recherche de film via Api</li>
+                            <li>Projet de groupe en méthode Agile</li>
+                            <li>Piscine Langage C, PHP, Javascript</li>
+                        </p>
+                    </div>
+                </div>
+                <div class="bloc bloc3">
+                    <div class="contenu-bloc">
+                        <p class="titre-section-bloc">Working Holiday visa</p>
+                        <p class="txt-section">Année en Nouvelle-zelande et ses alentours ainsi qu'en Asie.
+                            <li>Wwoof, World-wide Opportunities on Organic Farm </li>
+                            <li>Divers jobs saisonniers</li>
+                            <li>8 pays visités</li>
+                        </p>
+                    </div>
+                </div>
+                 <div class="bloc bloc4">
+                    <div class="contenu-bloc">
+                        <p class="titre-section-bloc">Chargé d'affaire entreprise junior</p>
+                        <p class="txt-section">
+                            <li>Prospection et développement d'un portefeuille client professionnels et grands comptes</li>
+                            <li>Analyse et conseils financiers</li>
+                            <li>Etude de dossiers de financement avec maitrise des risques et de la rentabilité de la relation client</li>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section parallax -->
+    <!-- <div class="section-parallax">
+        <p class="txt-par">
+            2500 tasses de café
+        </p>
+        <p class="txt-par">
+            4 Sites vitrines
+        </p>
+        <p class="txt-par">
+            10 projets
+        </p>
+    </div> -->
+
+    <!--  Section Contact  -->
+
+    <section class="section-contact" id="contact">
+    <h2><strong>Contactez</strong>-moi</h2>
+    <div class="container-form">
+        <form class="form-bloc">
+            <div class="form-groupe">
+                <label for="prenom">Prénom</label>
+                <input type="text" required maxlength="20" id="prenom">
+            </div>
+            <div class="form-groupe">
+                <label for="nom">Nom</label>
+                <input type="text" required maxlength="20" id="nom">
+            </div>
+            <div class="form-groupe">
+                <label for="prenom">E-mail</label>
+                <input type="email" required  id="email">
+            </div>
+            <div class="form-groupe">
+                <textarea id="txt" placeholder="Votre message" required></textarea>
+            </div>
+            <div class="form-groupe">
+                <input type="submit" value="Envoyer" class="button-sub">
+            </div>
+        </form>
+    </div>
+    </section>
+    <!-- Footer -->
+
+    <footer>
+        Tous droits réservés &copy;
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>  
+    <script src="app.js"></script>
+</body>
+</html>
