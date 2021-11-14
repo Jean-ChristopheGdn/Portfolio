@@ -672,6 +672,10 @@ h1 {
         margin: 50px 0 70px 0;
         padding-left: 0;
     }
+    .btn-projet{
+        margin: auto;
+        margin-top: 10px;
+    }
     
 }
 @media screen and (max-width: 500px) {
